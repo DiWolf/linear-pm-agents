@@ -1,7 +1,7 @@
 ---
 name: pm-task-generator
 description: Descompone historias de usuario aprobadas en tareas técnicas concretas y las crea en Linear como sub-issues, una por una con aprobación interactiva. Úsalo después de que una historia de usuario esté creada en Linear.
-model: claude-sonnet-4-6
+model: sonnet
 tools:
   - mcp__linear-server__linear_create_issue
   - mcp__linear-server__linear_search_issues_by_identifier

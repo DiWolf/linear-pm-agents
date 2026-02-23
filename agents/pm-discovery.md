@@ -1,7 +1,7 @@
 ---
 name: pm-discovery
 description: Genera documentos de requisitos estructurados desde descripciones de proyectos en lenguaje natural. Úsalo cuando necesites transformar una idea de proyecto en un documento formal con objetivos, stakeholders, restricciones y alcance. Se activa cuando el orquestador necesita estructurar la descripción inicial del proyecto.
-model: claude-sonnet-4-6
+model: sonnet
 tools:
   - Read
 ---
